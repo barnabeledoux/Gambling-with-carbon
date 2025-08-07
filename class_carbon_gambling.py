@@ -53,7 +53,7 @@ class kelly_debt:
             self.W = W
             self.rho = rho
             self.sig = sig
-            self.carr = colarr.carr
+        self.carr = colarr.carr
 
     def random_discrete_distribution(self, n):
         # Generate n random numbers
